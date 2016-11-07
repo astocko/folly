@@ -132,7 +132,7 @@ The above packages are sufficient for Ubuntu 13.10 and Ubuntu 14.04.
 In the folly directory, run
 ```
   autoreconf -ivf
-  ./configure
+  ./configure --enable-follytestmain
   make
   make check
   sudo make install
